@@ -49,7 +49,7 @@ int solve(int*arr,int size, int curr, int prev){
 
 int main(){
     int arr[6]={0,0,0,0,0,0};
-    int nums[8] = {10,9,2,5,3,7,101,18};
+    int nums[8] = {10,9,2,5,3,7,101,180};
     int size1=8;
     int size=6;
     int curr=0;

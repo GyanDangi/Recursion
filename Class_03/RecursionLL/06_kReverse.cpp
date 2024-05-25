@@ -149,7 +149,7 @@ int main()
     // insertAtPosition(tail,head, 126,1);
     // insertAtPosition(tail,head, 126,1);
     printLL(head);
-    int k = 3;
+    int k = 2;
     head = kReverse(head, 6);
     printLL(head);
     // printLLRecur(head);

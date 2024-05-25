@@ -27,7 +27,19 @@ void reverseString(string str,int index,string&ans){
     ans.push_back(str[index]);
 }
 
+// Date: 28/04/24 
 
+void reverseString1(string s, int i, int j){
+    int i=0;
+    int j= s.length()-1;
+
+    if(i>=j){
+        return ;
+    }
+
+    swap(s[i], s[j]);
+    reverseString1(s, i+1, j-1);
+}
 int main(){
 
     string str="Gyan";

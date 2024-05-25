@@ -19,7 +19,7 @@ int main(){
 
     int arr[] ={1,23,2,3,2,4,2,5};
     int size=8;
-    int target=2;
+    int target=5;
     cout<<getLast(arr,size,size-1,target);
 
     return 0;

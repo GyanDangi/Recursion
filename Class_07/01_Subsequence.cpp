@@ -28,6 +28,7 @@ bool isSubsequence(string &a, string &b,int i, int k){
         return true;
     }
 
+    // b matlab bada wala string:
     if(k==b.length()){
         return false;
     }
